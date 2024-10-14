@@ -90,6 +90,7 @@ footer {
 background-color: orange;
 
 }
+
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /*header*/
@@ -121,4 +122,12 @@ main{
 }    
 
 
+/* Large devices: laptops and desktops above 992px width*/
+}
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #252525;
+
+    }
+    
 }
