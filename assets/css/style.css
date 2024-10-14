@@ -82,7 +82,9 @@ nav {
 
 main {
 background-color: lightblue;
-flex: 1 0 auto
+flex: 1 0 auto;
+margin-top: 47px;
+
 }
 footer {
 background-color: orange;
