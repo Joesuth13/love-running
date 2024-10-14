@@ -1,3 +1,6 @@
+/*google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200..700&display=swap');
+
 /* asterisk overrides the browser's default style*/
 * {
     padding: 0;
@@ -11,10 +14,14 @@ body{
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
+    font-family: 'lato', sans-serif;
 
 }
 header {
 background-color:lightcoral
+}
+h1 {
+    font-family: 'oswald', sans-serif;
 }
 main {
 background-color: lightblue;
