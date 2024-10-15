@@ -93,6 +93,25 @@ margin-top: 47px;
     background: url(../images/hero-image.webp) no-repeat center center/cover;
     position: relative;
 }
+#cover-text {
+    /* rgba final value determines "alpha" or transparency*/
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#cover-text > h2, #cover-text > h3 {
+        color: #fff;
+}
+
+
+/*Reasons section*/
 #reasons{
     width: 90%;
     margin: auto 20px;
@@ -106,7 +125,7 @@ margin-top: 47px;
 }
 #reasons hr {
     border-top: 1px solid #3a3a3a;
-    margin 5px 0;
+    margin: 5px 0;
 }
 #benefits p{
     padding: 0 20px;
@@ -115,23 +134,20 @@ margin-top: 47px;
 line-height: 20px;
 margin-bottom: 20px;
 }
+#benefits-image{
 
-
-#covertext {
-    /* rgba final value determines "alpha" or transparency*/
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-#covertext > h2, #covertext > h3 {
-        color: #fff;
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 /*footer*/
 #social-networks {
@@ -179,7 +195,7 @@ main{
     margin-top: 79px;
 }    
 /*hero*/
-#covertext {
+#cover-text {
     width: 300px;
     right: 50px;
 
