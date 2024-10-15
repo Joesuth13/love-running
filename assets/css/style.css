@@ -18,6 +18,13 @@ body{
 
 }
 
+h1, h2, h3 {
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#252525
+}
+
 /*header*/
 header {
 background-color:#fff;
@@ -35,13 +42,6 @@ header a{
     color:inherit;
 }
 
-h1 {
-    font-family: 'oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:#252525
-
-}
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -82,7 +82,6 @@ nav {
 /*Main content*/
 
 main {
-background-color: lightblue;
 flex: 1 0 auto;
 margin-top: 47px;
 
@@ -92,6 +91,24 @@ margin-top: 47px;
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center/cover;
+    position: relative;
+}
+
+#covertext {
+    /* rgba final value determines "alpha" or transparency*/
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#covertext > h2, #covertext > h3 {
+        color: #fff;
 }
 /*footer*/
 #social-networks {
@@ -138,10 +155,15 @@ main{
     /*push main content down below the header*/
     margin-top: 79px;
 }    
+/*hero*/
+#covertext {
+    width: 300px;
+    right: 50px;
 
-
-/* Large devices: laptops and desktops above 992px width*/
 }
+}
+/* Large devices: laptops and desktops above 992px width*/
+
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #252525;
