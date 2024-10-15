@@ -149,6 +149,30 @@ margin-bottom: 20px;
     max-width: 300px;
     max-height: 300px;
 }
+/*Meetups section*/
+#times{
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display:flex;
+    flex-wrap: wrap;
+}
+#times div{
+    color: #fafafa;
+    background-color: rgba(0,0,0,.6);
+    padding: 15px;
+    text-align: center;
+    /*flex responsive properties(Stops divs wrapping on screens less than 400px wide
+    each div will expand to fill the available space on its row*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*Create grid lines between boxes*/
+    border: 2px solid white
+}
+/*Override for the h3 color*/
+#times h3{
+    color:#fafafa
+}
+
+
 /*footer*/
 #social-networks {
     text-align: center;
